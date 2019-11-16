@@ -221,11 +221,4 @@ class CalendarId
 	    return $arr_month[date('n', strtotime($cal))];
 	}
 
-	public function helo($nama)
-	{
-		return "helo ". $nama;
-	}
 }
-
-
-$calendar = new CalendarId();
